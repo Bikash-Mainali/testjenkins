@@ -13,7 +13,7 @@ public class DockerApplication {
 
     @GetMapping("/message")
     public String getMessage(){
-        System.out.println(".....");
+        System.out.println("....dddd.");
         return "Welcome to docker";
     }
     public static void main(String[] args) {

@@ -12,7 +12,7 @@ public class DockerApplication {
 
 
     @GetMapping("/message")
-    public  getMessage(){
+    public String getMessage(){
         System.out.println(".....");
         return "Welcome to docker";
     }

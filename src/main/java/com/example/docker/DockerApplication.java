@@ -12,10 +12,10 @@ public class DockerApplication {
 
 
     @GetMapping("/message")
-    public String getMessage(){
+    public  getMessage(){
         System.out.println(".....");
         return "Welcome to docker";
-
+    }
     public static void main(String[] args) {
         SpringApplication.run(DockerApplication.class, args);
     }

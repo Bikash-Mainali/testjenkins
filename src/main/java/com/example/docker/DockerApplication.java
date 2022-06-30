@@ -8,9 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class DockerApplication {
-
-
-
     @GetMapping("/message")
     public String getMessage(){
         System.out.println("....dddd.");
@@ -19,5 +16,4 @@ public class DockerApplication {
     public static void main(String[] args) {
         SpringApplication.run(DockerApplication.class, args);
     }
-
 }

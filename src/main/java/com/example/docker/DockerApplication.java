@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DockerApplication {
     @GetMapping("/message")
-    public String getMessage(){
+    public  getMessage(){
         System.out.println("....dddd.");
         return "Welcome to docker";
     }
